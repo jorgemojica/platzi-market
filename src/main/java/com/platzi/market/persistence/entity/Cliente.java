@@ -73,4 +73,11 @@ public class Cliente {
         this.correoElectronico = correoElectronico;
     }
 
+    public List<Compra> getCompras() {
+        return compras;
+    }
+
+    public void setCompras(List<Compra> compras) {
+        this.compras = compras;
+    }
 }
